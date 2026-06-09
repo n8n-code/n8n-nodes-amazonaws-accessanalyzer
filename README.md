@@ -53,9 +53,39 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Default | Put apply archive rule, Put cancel policy generation, Get generated policy, Put create access preview, Put create analyzer, Get list analyzers, Put create archive rule, Get list archive rules, Delete analyzer, Get analyzer, Delete archive rule, Get archive rule, Put update archive rule, Get access preview, Get analyzed resource, Get finding, Post list access preview findings, Get list access previews, Post list analyzed resources, Post list findings, Put update findings, Get list policy generations, Put start policy generation, Get list tags for resource, Post tag resource, Post start resource scan, Delete untag resource, Post validate policy |
+<details>
+<summary><b>Default</b> (28 operations)</summary>
+
+- Put Apply Archive Rule
+- Put Cancel Policy Generation
+- Get Generated Policy
+- Put Create Access Preview
+- Put Create Analyzer
+- Get List Analyzers
+- Put Create Archive Rule
+- Get List Archive Rules
+- Delete Analyzer
+- Get Analyzer
+- Delete Archive Rule
+- Get Archive Rule
+- Put Update Archive Rule
+- Get Access Preview
+- Get Analyzed Resource
+- Get Finding
+- Post List Access Preview Findings
+- Get List Access Previews
+- Post List Analyzed Resources
+- Post List Findings
+- Put Update Findings
+- Get List Policy Generations
+- Put Start Policy Generation
+- Get List Tags For Resource
+- Post Tag Resource
+- Post Start Resource Scan
+- Delete Untag Resource
+- Post Validate Policy
+
+</details>
 
 ---
 

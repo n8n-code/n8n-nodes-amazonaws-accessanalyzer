@@ -494,7 +494,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Job Id",
+			"displayName": "Job ID",
 			"name": "jobId",
 			"required": true,
 			"description": "The <code>JobId</code> that is returned by the <code>StartPolicyGeneration</code> operation. The <code>JobId</code> can be used with <code>GetGeneratedPolicy</code> to retrieve the generated policies or used with <code>CancelPolicyGeneration</code> to cancel the policy generation request.",
@@ -556,7 +556,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Job Id",
+			"displayName": "Job ID",
 			"name": "jobId",
 			"required": true,
 			"description": "The <code>JobId</code> that is returned by the <code>StartPolicyGeneration</code> operation. The <code>JobId</code> can be used with <code>GetGeneratedPolicy</code> to retrieve the generated policies or used with <code>CancelPolicyGeneration</code> to cancel the policy generation request.",
@@ -1815,7 +1815,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Access Preview Id",
+			"displayName": "Access Preview ID",
 			"name": "accessPreviewId",
 			"required": true,
 			"description": "The unique ID for the access preview.",
@@ -2025,7 +2025,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "The ID of the finding to retrieve.",
@@ -2087,7 +2087,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Access Preview Id",
+			"displayName": "Access Preview ID",
 			"name": "accessPreviewId",
 			"required": true,
 			"description": "The unique ID for the access preview.",

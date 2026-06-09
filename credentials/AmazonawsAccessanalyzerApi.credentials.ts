@@ -8,7 +8,7 @@ import type {
 export class AmazonawsAccessanalyzerApi implements ICredentialType {
 	name = 'N8nDevAmazonawsAccessanalyzerApi';
 
-	displayName = 'amazonaws-accessanalyzer API';
+	displayName = 'Amazonaws Accessanalyzer API';
 
 	icon: Icon = { light: 'file:../nodes/AmazonawsAccessanalyzer/amazonaws-accessanalyzer.png', dark: 'file:../nodes/AmazonawsAccessanalyzer/amazonaws-accessanalyzer.dark.png' };
 
@@ -22,7 +22,7 @@ export class AmazonawsAccessanalyzerApi implements ICredentialType {
 			default: '',
 			required: true,
 			placeholder: 'http://access-analyzer.us-east-1.amazonaws.com',
-			description: 'The base URL of your amazonaws-accessanalyzer API server',
+			description: 'The base URL of your Amazonaws Accessanalyzer API server',
 		},
 		{
 			displayName: 'API Key',

@@ -3,14 +3,14 @@ import { defaultDescription } from './resources/default';
 
 export class AmazonawsAccessanalyzer implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'amazonaws-accessanalyzer',
+		displayName: 'Amazonaws Accessanalyzer',
 		name: 'N8nDevAmazonawsAccessanalyzer',
 		icon: { light: 'file:./amazonaws-accessanalyzer.png', dark: 'file:./amazonaws-accessanalyzer.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Identity and Access Management Access Analyzer helps identify potential resource-access risks by enabling you to identify any policies that grant access to an external principal. It does this by..',
-		defaults: { name: 'amazonaws-accessanalyzer' },
+		description: 'Analyzes IAM policies to identify external principal access risks.',
+		defaults: { name: 'Amazonaws Accessanalyzer' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],
